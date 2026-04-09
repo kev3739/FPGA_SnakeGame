@@ -1,22 +1,27 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# Quartus generated output
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.jdi
+*.pin
+*.smsg
+*.rpt
+*.summary
+*.done
+*.sof
+*.pof
+*.sld
+*.eda.rpt
+*.jditmp
+qar_info.json
+
+# Backup files
+*.bak
+*.v.bak
+
+# Qsys generated
+*.sopcinfo
+*.spd
+*.ip
